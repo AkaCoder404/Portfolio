@@ -1,14 +1,11 @@
 ---
-date: '1'
+date: '2021-06-01'
 title: 'TypeRacer Mobile Application'
-cover: './CoverTypeRacerCover_v1.png'
 github: 'https://github.com/AkaCoder404/typeracerfrontend'
 external: 'https://github.com/AkaCoder404/typeracerfrontend'
 tech:
   - Flutter
-  - Dart
   - Django
-  - Python
 showInProjects: true
 ---
 
