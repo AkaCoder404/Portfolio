@@ -1,7 +1,7 @@
 ---
 date: '2023-02-01'
 title: 'Tsinghua Portal Terminal Application'
-github: ' GoXLearn'
+github: ''
 external: 'https://github.com/AkaCoder404/GoXLearn'
 tech:
   - GoLang
