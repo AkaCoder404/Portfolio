@@ -1,5 +1,5 @@
 ---
-date: '2023-01-01'
+date: '1'
 title: 'iSpace Smart Home Visualization'
 cover: './iSpaceCover.png'
 github: 'https://akacoder404.com'

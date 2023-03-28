@@ -1,7 +1,7 @@
 ---
-date: '1'
+date: '2'
 title: 'TypeRacer Mobile Application'
-cover: './CoverTypeRacerCover_v1.png'
+cover: './CoverTypeRacerCover.png'
 github: 'https://github.com/AkaCoder404/typeracerfrontend'
 external: 'https://github.com/AkaCoder404/typeracerfrontend'
 tech:
