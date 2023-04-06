@@ -1,9 +1,10 @@
 ---
 date: '1'
 title: 'iSpace Smart Home Visualization'
-cover: './iSpaceCover.png'
+coverImage: './ispace.png'
 github: 'https://akacoder404.com'
 external: 'https://akacoder404.com'
+cta: ''
 tech:
   - React
   - Ant Design

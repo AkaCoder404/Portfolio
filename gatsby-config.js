@@ -7,7 +7,7 @@ module.exports = {
       'George Li is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://akacoder404.com', // No trailing slash allowed!
     image: '/demo.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    twitterUsername: 'twitter.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -56,6 +56,13 @@ module.exports = {
       options: {
         name: `projects`,
         path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `featured`,
+        path: `${__dirname}/content/featured`,
       },
     },
     {
