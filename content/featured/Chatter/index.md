@@ -3,7 +3,7 @@ date: '4'
 title: 'Chatter with Flutter'
 cover: './CoverChatter.png'
 github: 'https://github.com/AkaCoder404/Chatter'
-external: ''
+external: '1'
 tech:
   - Flutter
   - Dart
