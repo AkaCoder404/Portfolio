@@ -6,8 +6,8 @@ module.exports = {
     description:
       'George Li is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://akacoder404.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '',
+    image: '/demo.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: 'twitter.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'George Li',
-        short_name: 'Brittany Chiang',
+        short_name: 'George Li',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -56,6 +56,13 @@ module.exports = {
       options: {
         name: `projects`,
         path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `featured`,
+        path: `${__dirname}/content/featured`,
       },
     },
     {
@@ -152,7 +159,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'G-Q9GY3ZQ5VV',
       },
     },
   ],
